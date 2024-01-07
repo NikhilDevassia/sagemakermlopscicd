@@ -56,6 +56,7 @@ def get_pipeline_session(region, default_bucket):
 pipeline_session = get_pipeline_session(region, default_bucket)
 
 # Lambda helper class can be used to create the Lambda function
+# testci/cd
 func = Lambda(
     function_name=lambda_function_name,
     execution_role_arn=role,
